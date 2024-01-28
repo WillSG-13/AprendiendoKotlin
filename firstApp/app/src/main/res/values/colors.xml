@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  IMC APP  -->
+    <color name="background_component">#1d1e33</color>
+    <color name="background_component_selected">#ff111328</color>
+    <color name="background_app">#0e0b20</color>
+    <color name="background_button">#eb1555</color>
+    <color name="title_text">#ff8d8e98</color>
+
+
+    <color name="pesoBajo">#FFEB3B</color>
+    <color name="pesoNormal">#4CAF50</color>
+    <color name="pesoSobrePeso">#FF5722</color>
+    <color name="obesidad">#F44336</color>
+
+    <!-- TO DO APP -->
+    <color name="toDoBackgroundCard">#FF081A4A</color>
+    <color name="toDoBackgroundDisable">#787878</color>
+    <color name="toDoBackgrounToDoApp">#FF2D4993</color>
+    <color name="toDoSubtitleText">#959595</color>
+    <color name="toDoAccent">#E91E63</color>
+
+    <color name="toDoBusinessCategory">#FF9800</color>
+    <color name="toDoPersonalCategory">#00BCD4</color>
+    <color name="toDoOtherCategory">#4CAF50</color>
+
+<!--    super hero app -->
+    <color name="superHeroItemName">#B9673AB7</color>
+    <color name="colorIntelligence">#FF5722</color>
+    <color name="colorStrength">#2196F3</color>
+    <color name="colorSpeed">#4CAF50</color>
+    <color name="colorDurability">#E91E63</color>
+    <color name="colorPower">#673AB7</color>
+    <color name="colorCombat">#FF9800</color>
+
+</resources>

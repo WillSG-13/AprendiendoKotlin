@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toDoSubTitle">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/toDoSubtitleText</item>
+        <item name="android:layout_marginHorizontal">32dp</item>
+
+    </style>
+</resources>

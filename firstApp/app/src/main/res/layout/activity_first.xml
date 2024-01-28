@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirsApp.First.activity_First">
+
+
+    <View
+        android:id="@+id/viewBlack"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@color/material_dynamic_neutral50"
+        app:layout_constraintEnd_toStartOf="@+id/viewBlue"
+        app:layout_constraintTop_toTopOf="@+id/viewBlue" />
+
+    <View
+        android:id="@+id/viewPurple"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@color/purple_200"
+        app:layout_constraintStart_toEndOf="@+id/viewBlue"
+        app:layout_constraintTop_toTopOf="@+id/viewBlue" />
+
+    <View
+        android:id="@+id/viewBlue"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@color/teal_200"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Word"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Pulsame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewBlue" />
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/viewBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Escribe tu nombre"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/edText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

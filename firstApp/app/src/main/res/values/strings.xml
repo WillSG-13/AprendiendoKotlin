@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Primera App</string>
+    <string name="male">hombre</string>
+    <string name="female">mujer</string>
+    <string name="height">altura</string>
+    <string name="weight">peso</string>
+    <string name="age">edad</string>
+    <string name="calculate">calcular</string>
+    <string name="imcTitle">Tu Resultado</string>
+    <string name="reCalculate">Recalcular</string>
+
+    <!--Para los textos para el espacio central-->
+    <string name="tituloBajoPeso">Peso Bajo</string>
+    <string name="descripcionBajoPeso">Jarte mas</string>
+
+    <string name="tituloNormalPeso">Peso normal</string>
+    <string name="descripcionNormalPeso">Siga comiendo asi</string>
+
+    <string name="tituloSobrePeso">Sobre Peso</string>
+    <string name="descripcionSobrePeso">deje de Jartarse</string>
+
+    <string name="tituloObesidad">Obesidad</string>
+    <string name="descripcionObesidad">Saque un plan en la Funeraria</string>
+    <!--Son para los de error-->
+    <string name="error">Error</string>
+
+
+    <!-- Textos para To Do app-->
+    <string name="toDoTitle">Vamos a Darle</string>
+    <string name="toDoCategories">Categorias</string>
+    <string name="toDoTareas">Tareas </string>
+    <string name="hintText">Añade la tarea</string>
+
+    <string name="textBussines">Negocios</string>
+    <string name="textPersonal">Personal</string>
+    <string name="textOther">Otro</string>
+    <string name="createTask">Crear Tarea</string>
+
+    <string name="stringIntelligence">Inteligencia</string>
+    <string name="stringStrength">Fuerza</string>
+    <string name="stringSpeed">Velocidad</string>
+    <string name="stringDurability">Durabilidad</string>
+    <string name="stringPower">Poder</string>
+    <string name="stringCombat">Combate</string>
+
+
+</resources>
